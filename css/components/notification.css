@@ -1,0 +1,55 @@
+.notifications {
+  display: block;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(230,230,230);
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.avatar {
+  width: 60px;
+  border-radius: 50px;
+  box-shadow: 0px 1px 1px rgb(100,100,100);
+}
+
+.content {
+  padding: 0 18px;
+  flex-grow: 1;
+}
+
+.notification h2 {
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.notification p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.notification:last-child {
+  border-bottom: none;
+}
+
+.action {
+  margin-left: 20px;
+}
+
+.action-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  transition: ease .4s;
+  opacity: 0;
+}
+
+.action-link:hover {
+  opacity: 0.9;
+}
+
+
